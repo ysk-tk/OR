@@ -3,8 +3,8 @@ runApp(list(
 ui = fluidPage(
   sidebarLayout(
     sidebarPanel(
-      textInput("N", "¬‚³‚¢”š‚ğ“ü—Í", ""),
-      textInput("M", "‘å‚«‚¢”š‚ğ“ü—Í", ""),
+      textInput("N", "å°ã•ã„æ•°å­—ã‚’å…¥åŠ›", ""),
+      textInput("M", "å¤§ãã„æ•°å­—ã‚’å…¥åŠ›", ""),
     ),
     mainPanel(
       br(),
