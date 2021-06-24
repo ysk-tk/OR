@@ -3,8 +3,8 @@ runApp(list(
 ui = fluidPage(
   sidebarLayout(
     sidebarPanel(
-      textInput("N", "小さい数字を入力", ""),
-      textInput("M", "大きい数字を入力", ""),
+      textInput("N", "小さい数字を入力", value = "1"),
+      textInput("M", "大きい数字を入力", value = "10"),
     ),
     mainPanel(
       br(),
